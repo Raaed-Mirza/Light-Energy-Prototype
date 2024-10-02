@@ -1,0 +1,14 @@
+- light up specific spaces in a room
+
+- compare energy consumption(leaving the light on vs having the AI software running)
+	- reduce on cost by reducing buffer
+	- use pictures instead of video (e.g. 1 every minute)
+
+- open source home assistant
+
+- sensor outside of room detects sunlight, blinds won't affect light
+
+- OpenCV => raspberry pi (low power)
+
+- dimmable lights/switches
+
