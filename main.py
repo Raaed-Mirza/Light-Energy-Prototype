@@ -34,12 +34,12 @@ cv2.namedWindow("Frame")
 cv2.setMouseCallback("Frame", click_button)
 
 def draw_buttons(frame, people_count):
-    cv2.rectangle(frame, (20, 20), (450, 70), (255, 255, 255), 3)
-    label = 'Person Count' if not button_person else f'Person Count: {people_count}'
-    cv2.putText(frame, label, (30, 60), cv2.FONT_HERSHEY_PLAIN, 3, (255, 255, 255), 3)
+    cv2.rectangle(frame, (20, 20), (600, 70), (300, 0, 0), 3)
+    label = 'Person Detected: No' if not button_person else f'Person Detected: Yes'
+    cv2.putText(frame, label, (30, 60), cv2.FONT_HERSHEY_PLAIN, 3, (300, 0, 0), 3)
 
-    cv2.rectangle(frame, (20, 80), (280, 130), (255, 255, 255), 3)
-    cv2.putText(frame, 'Generate', (30, 120), cv2.FONT_HERSHEY_PLAIN, 3, (255, 255, 255), 3)
+    cv2.rectangle(frame, (20, 80), (280, 130), (300, 0, 0), 3)
+    cv2.putText(frame, 'Generate', (30, 120), cv2.FONT_HERSHEY_PLAIN, 3, (300, 0, 0), 3)
 
 while True:
     ret, frame = cap.read()
