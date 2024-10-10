@@ -35,7 +35,7 @@ cv2.setMouseCallback("Frame", click_button)
 
 def draw_buttons(frame, people_count):
     cv2.rectangle(frame, (20, 20), (600, 70), (300, 0, 0), 3)
-    label = 'Person Detection: ON' if not button_person else f'Person Detection: OFF'
+    label = 'Person Detection: OFF' if not button_person else f'Person Detection: ON'
     cv2.putText(frame, label, (30, 60), cv2.FONT_HERSHEY_PLAIN, 3, (300, 0, 0), 3)
 
     cv2.rectangle(frame, (20, 80), (280, 130), (300, 0, 0), 3)
