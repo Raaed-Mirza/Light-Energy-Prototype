@@ -1,5 +1,7 @@
 - light up specific spaces in a room
 
+- CCTV
+
 - compare energy consumption(leaving the light on vs having the AI software running)
 	- reduce on cost by reducing buffer
 	- use pictures instead of video (e.g. 1 every minute)
@@ -12,3 +14,4 @@
 
 - dimmable lights/switches
 
+ YOU SEE WHAT HAPPENS WHEN YOU DONT HAVE AUTOMATIC LIGHTS (hook)
