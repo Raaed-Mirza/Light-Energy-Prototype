@@ -27,7 +27,7 @@ pip install opencv-python numpy
 ```
 ### Clone Repository
 ```bash
-git clone https://github.com/yourusername/Light-Energy-Prototype.git
+git clone https://github.com/Raaed-Mirza/Light-Energy-Prototype.git
 ```
 ```bash
 cd Light-Energy-Prototype
